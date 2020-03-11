@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Hello Gridea | ZHUYE.RED</title>
-<link rel="shortcut icon" href="https://blog.zhuye.red/favicon.ico?v=1583916685368">
+<link rel="shortcut icon" href="https://blog.zhuye.red/favicon.ico?v=1583916929344">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.zhuye.red/styles/main.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -128,6 +128,32 @@
 
         
 
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'fafa05ac15c37ae3c598',
+    clientSecret: '1c025f662a1b0b003501400690dc18d77e7af32c',
+    repo: 'Grideablog',
+    owner: 'bearduncle521',
+    admin: ['bearduncle521'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+            
+
+            
         
 
         <div class="site-footer gt-c-content-color-first">
